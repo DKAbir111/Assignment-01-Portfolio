@@ -240,7 +240,7 @@
     background-color: rgba(255, 223, 0, 0.05);
 }
 
-.target-card h3 {
+.target-card h4 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
@@ -254,4 +254,45 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
+}
+
+/* My current Target Section  styles start from here */
+.next-target{
+    width: 1140px;
+height: 866px;
+margin: 150px auto;
+}
+.card-layout-next{
+    width: 1140px;
+height: 705px;
+margin: 24px 0px;
+}
+.target-card-next{
+    width: 1140px;
+height: 219px;
+margin: 24px 0px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+padding: 40px;
+display: flex;
+gap: 20px;
+
+}
+.target-card-next h4{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+.target-card-next a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.target-card-next img{
+    height: 108px;
+    width: 118px;
 }
