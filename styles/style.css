@@ -171,3 +171,32 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
+
+/* Inspiration-section Sttyles start from here */
+.inspiration{
+    width: 1140px;
+height: 775px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.inspiration-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+.inspiration-videos{
+    width: 1140px;
+height: 614px;
+margin-top: 48px;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
