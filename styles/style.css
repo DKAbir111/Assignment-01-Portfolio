@@ -25,6 +25,14 @@
     font-weight: 800;
 }
 
+.section-content-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+
 /*Navigation bar styles here*/
 .navigation-bar {
     height: 80px;
@@ -123,15 +131,6 @@
 
 }
 
-.web-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 25px;
-}
-
-
 .why-web-card {
     width: 946px;
     height: 336px;
@@ -173,30 +172,86 @@
 }
 
 /* Inspiration-section Sttyles start from here */
-.inspiration{
+.inspiration {
     width: 1140px;
-height: 775px;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-}
-.inspiration-content{
+    height: 775px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
-    text-align: center;
+    justify-content: center;
 }
-.inspiration-videos{
-    width: 1140px;
-height: 614px;
-margin-top: 48px;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-display: flex;
-align-items: center;
-justify-content: center;
 
+.inspiration-videos {
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* My current Taget Section styles start from here */
+.current-target {
+    width: 1140px;
+    height: 460px;
+    margin: 111px auto;
+
+}
+
+.card-layout {
+    margin-top: 88px;
+    width: 1140px;
+    height: 299px;
+    display: flex;
+}
+
+.target-card {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.target-card img {
+    width: 56px;
+    height: 56px;
+}
+
+#card-1 {
+
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+#card-2 {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+#card-3 {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.target-card h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+
+.target-card a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
 }
