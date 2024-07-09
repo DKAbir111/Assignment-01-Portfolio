@@ -257,42 +257,103 @@
 }
 
 /* My current Target Section  styles start from here */
-.next-target{
+.next-target {
     width: 1140px;
-height: 866px;
-margin: 150px auto;
+    height: 866px;
+    margin: 150px auto 0px auto;
 }
-.card-layout-next{
+
+.card-layout-next {
     width: 1140px;
-height: 705px;
-margin: 24px 0px;
+    height: 705px;
+    margin: 24px 0px;
 }
-.target-card-next{
+
+.target-card-next {
     width: 1140px;
-height: 219px;
-margin: 24px 0px;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 16px;
-padding: 40px;
-display: flex;
-gap: 20px;
+    height: 219px;
+    margin: 24px 0px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
 
 }
-.target-card-next h4{
+
+.target-card-next h4 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
 }
-.target-card-next a{
+
+.target-card-next a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
 }
-.target-card-next img{
+
+.target-card-next img {
     height: 108px;
     width: 118px;
+}
+
+/* Support secction  styles Start from here  */
+.support {
+    width: 1140px;
+    height: 313px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../assets/handshake.jpg');
+    background-blend-mode: overlay;
+    margin: 111px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.support-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.support-content input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-top: 15px; */
+}
+
+.support-content button {
+    border-radius: 8px;
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    margin: 0px 10px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.support h4 {
+    color: white;
+}
+
+.support p {
+    color: white;
+    opacity: 0.7;
 }
