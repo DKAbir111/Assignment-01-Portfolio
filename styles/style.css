@@ -1,7 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     font-family: "Azeret Mono", monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*Shared Property*/
+.section-content-text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+/*Navigation bar styles here*/
+.navigation-bar {
+    height: 80px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-bar h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.navigation-bar button {
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/*Hero Section Styles*/
+.hero-section {
+    width: 1440px;
+    height: 652px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section-content {
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-content h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hero-section-content p {
+    text-align: center;
+}
+
+.hero-section-content button {
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: none;
+}
+
+.hero-section-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
